@@ -545,7 +545,7 @@ iframe {
 
 #investorSlider {
   background: #ebebeb;
-  padding: 0 0 120px;
+  padding: 0 0 100px;
 }
 
 #investorsInfo {
@@ -559,13 +559,54 @@ iframe {
   padding: 32px;
   display: flex;
 }
-.investorsInfo h2{
+
+.investorsInfo h2 {
   flex: 0.6;
   margin: 0;
 }
-.investorsInfo > div{
+
+.investorsInfo>div {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+#investorsGain {
+  padding-bottom: 100px;
+  background: #ebebeb;
+}
+
+.investorsGain>div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+.investorsGain span{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.investorsGain>div>div {
+  display: flex;
+  box-shadow: 0 4px 8px #0000001a;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  flex-direction: column;
+  background: white;
+}
+.investorsGain p::before{
+  content: url("../../assets/image/Icon.svg");
+  padding-right: 15px;
+}
+
+.investorsGain>div h2{
+  margin: 0;
+  color: black;
+}
+.investorsGain h3{
+  padding-bottom: 16px;
 }
