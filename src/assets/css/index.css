@@ -10,9 +10,8 @@ body {
 
 button {
   border-radius: 12px;
-  padding-top: 12px;
-  padding-bottom: 12px;
   background: rgba(238, 30, 36, 1);
+  padding: 12px 0 12px;
   color: white;
   border: none;
   cursor: pointer;

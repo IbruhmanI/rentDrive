@@ -548,6 +548,35 @@ iframe {
   padding: 0 0 100px;
 }
 
+.investorSlider {
+  width: 100%;
+  overflow-x: scroll;
+  position: relative;
+  scrollbar-width: none;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 43%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.slider-btn button{
+  padding: 15px 15px;
+  border-radius: 50%;
+  background-color: #f8c742;
+}
+
+.investor-slider-line {
+  display: flex;
+  gap: 20px;
+}
+
+#investorSlider img {
+  width: 250px;
+}
+
 #investorsInfo {
   background: #ebebeb;
   padding-top: 100px;
@@ -582,7 +611,8 @@ iframe {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
 }
-.investorsGain span{
+
+.investorsGain span {
   font-weight: 400;
   font-size: 16px;
 }
@@ -598,38 +628,46 @@ iframe {
   flex-direction: column;
   background: white;
 }
-.investorsGain p::before{
+
+.investorsGain p::before {
   content: url("../../assets/image/Icon.svg");
   padding-right: 15px;
 }
 
-.investorsGain>div h2{
+.investorsGain>div h2 {
   margin: 0;
   color: black;
 }
-.investorsGain h3{
+
+.investorsGain h3 {
   padding-bottom: 16px;
 }
-#investorsForm{
+
+#investorsForm {
   background: url('../image/usdt.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   color: white;
   padding: 100px 100px;
 }
-.investorsForm{
+
+.investorsForm {
   display: flex;
   gap: 32px;
 }
-.investorsForm h1{
+
+.investorsForm h1 {
   font-size: 60px;
   font-weight: 600;
 }
-.investor-form{
+
+.investor-form {
   width: fit-content;
   padding: 32px 24px;
 }
-.contacts-checkBox-flex{
+
+.contacts-checkBox-flex {
   flex-direction: row !important;
 }

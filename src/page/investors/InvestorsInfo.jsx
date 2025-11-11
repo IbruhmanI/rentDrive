@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { get } from '../../api/api';
 
 const InvestorsInfo = () => {
   return (
